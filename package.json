@@ -4,14 +4,10 @@
   "description": "A babel plugin help remove console.log",
   "main": "index.js",
   "license": "MIT",
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn test"
-    }
-  },
   "scripts": {
     "format": "prettier --check --write index.js",
-    "test": "jest"
+    "test": "jest",
+    "postinstall": " husky install"
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",
