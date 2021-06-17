@@ -1,4 +1,4 @@
-# babel-plugin-remove-console
+# babel-plugin-remove-consolelog
 
 A babel plugin to remove console.log statements from output code.
 
@@ -7,19 +7,19 @@ A babel plugin to remove console.log statements from output code.
 npm
 
 ```
-npm install babel-plugin-remove-console --save-dev
+npm install babel-plugin-remove-consolelog --save-dev
 ```
 
 yarn
 
 ```
-yarn add babel-plugin-remove-console --dev
+yarn add babel-plugin-remove-consolelog --dev
 ```
 
 ## Usage
 
 ```json
 {
-  "plugins": ["babel-plugin-remove-console"]
+  "plugins": ["babel-plugin-remove-consolelog"]
 }
 ```
