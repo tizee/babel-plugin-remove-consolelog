@@ -1,5 +1,5 @@
 {
-  "name": "babel-plugin-remove-console",
+  "name": "babel-plugin-remove-consolelog",
   "version": "0.0.1",
   "private": false,
   "author": "tizee pobomp@gmail.com",
