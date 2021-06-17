@@ -1,24 +1,35 @@
 {
   "name": "babel-plugin-remove-console",
   "version": "0.0.1",
+  "private": false,
+  "author": "tizee pobomp@gmail.com",
   "description": "A babel plugin help remove console.log",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tizee/babel-plugin-remove-consolelog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tizee/babel-plugin-remove-consolelog/issues"
+  },
+  "homepage": "https://github.com/tizee/babel-plugin-remove-consolelog#readme",
   "license": "MIT",
+  "keywords": [
+    "babel",
+    "plugin"
+  ],
   "scripts": {
     "format": "prettier --check --write index.js",
     "test": "jest",
     "postinstall": " husky install"
   },
+  "peerDependencies": {
+    "@babel/core": "^7.14.6"
+  },
   "devDependencies": {
-    "@babel/core": "^7.14.6",
-    "@babel/parser": "^7.14.6",
     "@babel/types": "^7.14.5",
-    "chai": "^4.3.4",
     "husky": "^6.0.0",
     "jest": "^27.0.4",
     "prettier": "^2.3.1"
-  },
-  "dependencies": {
-    "@babel/traverse": "^7.14.5"
   }
 }
